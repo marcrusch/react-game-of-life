@@ -1,0 +1,48 @@
+.ui {
+    height: 100vh;
+}
+
+.grid-container {
+  height: 90vh;
+}
+
+.controls-container {
+  height: 10vh;
+}
+
+.grid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid__row {
+    flex: 1;
+    display: flex;
+}
+
+.controls {
+    position: relative;
+    height: 100%;
+}
+
+.controls__button-container  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 400px;
+}
+
+.controls__button-container div {
+    flex: 1;
+}
+
+.controls__button {
+    background-color: #aaaaaa;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
